@@ -1,4 +1,4 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter Project
 
 The purpose of this project was to implement Extended Kalman Filter, that is later used to estimate the state of a moving object with noisy lidar and radar measurements. Each data point consisted of either Lidar measurement (x and y position) or radar measurement (ro, theta and ro_dot - polar coordinates). Additionally every pointed had timestamp and groundtruth object position (x,y,x_dot,y_dot), which were used to calculate RMSE (root mean square error). In case of lidar observations directly corresponded to objects positions (system is linear) so Kalman filter update step was used. In case of radar measurements system was non linear and Extended version of Kalman filter had to be used.My implementation was able to get RMSE in required accuracy range for this project, which proved that it was working correctly.
 
