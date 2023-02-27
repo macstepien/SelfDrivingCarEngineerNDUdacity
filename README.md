@@ -22,6 +22,11 @@ My implementation of all projects from Udacity Self-Driving Car Engineer Nanodeg
 
 ### Traffic sign classifier
 
+<p align="center">
+  <img src="./overview/udacity_p3_1.png" height="400" />
+  <img src="./overview/udacity_p3_2.png" />
+</p>
+
 ---
 
 
@@ -40,6 +45,10 @@ My implementation of all projects from Udacity Self-Driving Car Engineer Nanodeg
 
 ### Particle filter
 
+<p align="center">
+  <img src="./overview/udacity_p6.png" height="400" />
+</p>
+
 ---
 
 ### Path planning
@@ -50,6 +59,10 @@ My implementation of all projects from Udacity Self-Driving Car Engineer Nanodeg
 ---
 
 ### PID
+
+<p align="center">
+  <img src="./overview/udacity_p8.gif" height="400" />
+</p>
 
 ---
 
