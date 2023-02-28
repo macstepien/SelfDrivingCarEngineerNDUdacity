@@ -36,15 +36,15 @@ i = 0
 for path in file_paths:
     with open(path+'driving_log.csv') as csvfile:
         reader = csv.reader(csvfile)
-        cutoffPoint = 0
+        cutoff_point = 0
         with open(path+'driving_log.csv') as csvfile2:
             reader2 = csv.reader(csvfile2)
-            cutoffPoint = len(list(reader2))*cutoffs[i]
+            cutoff_point = len(list(reader2))*cutoffs[i]
         j = 0
         
         for line in reader:
             samples.append(line)
-            if j>cutoffPoint:
+            if j>cutoff_point:
                 break
             j+=1
     i+=1
