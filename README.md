@@ -15,7 +15,7 @@ Road lane line detection using OpenCV in Python (Canny Edge detection, Hough tra
 ---
 
 ### Advanced lane line detection
-Road lane line detection using OpenCV in Python (camera calibration, distortion correction, converting to binary image with Sobel operator, birds-eye view transform, fitting second-degree polynomial).
+Road lane line detection using OpenCV in Python (camera calibration, distortion correction, edge detection with Sobel operator, birds-eye view transform, fitting second-degree polynomial).
 
 <p align="center">
   <img src="./overview/udacity_p2.gif" height="300" />
